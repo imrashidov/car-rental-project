@@ -1,5 +1,71 @@
+:root {
+  --primary-color: #010103;
+  --secondary-color: #ff4d30;
+  --description-color: #706f7b;
+}
+
 * {
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
+  text-decoration: none;
+  list-style-type: none;
+  color: var(--primary-color);
+  font-family: "Rubik", sans-serif;
+}
+
+/* Navbar */
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 1.5rem 20rem;
+  max-width: 133rem;
+  z-index: 99999;
+}
+.navbar-img {
+  width: 9.5rem;
+  flex-shrink: 0;
+}
+.navbar-img img {
+  height: 100%;
+  width: 100%;
+}
+.navbar-links {
+  display: flex;
+  gap: 20px;
+  font-weight: 500;
+  font-size: 16px;
+}
+.navbar-links li {
+  color: var(--primary-color);
+}
+.navbar-links a:hover {
+  color: var(--secondary-color);
+  transition: all 0.3s;
+}
+.navbar-btn {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  font-weight: 500;
+  font-size: 16px;
+}
+.navbar-btn-sign-in:hover {
+  color: var(--secondary-color);
+  transition: all 0.3s;
+}
+.navbar-btn-register {
+  color: #fff;
+  background-color: var(--secondary-color);
+  border: 1px solid var(--secondary-color);
+  border-radius: 5px;
+  padding: 15px 40px;
+  transition: all 0.3s;
+}
+.navbar-btn-register:hover {
+  color: var(--secondary-color);
+  background-color: #fff;
 }
