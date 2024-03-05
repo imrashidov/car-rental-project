@@ -77,27 +77,34 @@ nav {
 /* Hero Component */
 .hero-section {
   display: flex;
+  background-color: #f8f8f8;
+  height: 97vh;
+  width: 100%;
 }
 .hero-background {
   position: absolute;
   right: 0;
   top: 0;
-  z-index: -1;
+  z-index: 1;
 }
 .hero-container {
-  display: flex;
   max-width: 133rem;
   margin: 0 auto !important;
+  padding: 0 2.5rem !important;
 }
 .hero-content {
   display: flex;
   justify-content: center;
   align-items: center;
   padding-top: 5rem;
+  padding-bottom: 13rem;
 }
 .hero-content-text {
   width: max-content;
   margin-top: 2rem;
+}
+.hero-content img {
+  z-index: 2;
 }
 .hero-content-text h1 {
   margin-bottom: 20px;
@@ -149,9 +156,98 @@ nav {
   box-shadow: 0 10px 15px 0 rgba(255, 83, 48, 0.35);
 }
 
+/* Booking Component */
+.book-section {
+  display: flex;
+  background: linear-gradient(180deg, #f8f8f8 20%, #fff 80%);
+  position: relative;
+}
+.book-container {
+  display: flex;
+  max-width: 133rem !important;
+  padding: 0 2.5rem !important;
+  margin: 0 auto !important;
+}
+.book-content {
+  background-color: #fff;
+  background-image: url(/static/media/book-bg.6f629a1….png);
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 5px;
+  box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.1);
+  position: relative;
+  width: 100%;
+  padding: 4rem 5rem;
+  z-index: 4;
+}
+.book-form {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto auto auto;
+  grid-gap: 2rem;
+  gap: 2rem;
+}
+.book-content h1 {
+  margin-bottom: 3rem;
+}
+
+.book-form-select,
+.book-form-time {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 1.4rem;
+}
+.book-form-select label,
+.book-form-time label {
+  display: flex;
+  align-items: left;
+  justify-content: left;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+  font-weight: 500;
+}
+.book-form-select select,
+.book-form-time input {
+  width: 25rem;
+  padding: 0.7rem;
+  color: #ababab;
+  border: 1px solid #ccd7e6;
+  border-radius: 3px;
+  cursor: pointer;
+}
+input[type="date" i] {
+  cursor: default;
+}
+.book-form-select option {
+  color: #ababab;
+  font-size: 1rem;
+}
+
+.book-form button {
+  font-weight: 600;
+  font-size: 1.4rem;
+  color: #fff;
+  background: var(--secondary-color);
+  border: none;
+  width: 25rem;
+  height: fit-content;
+  align-self: self-end;
+  padding: 0.7rem;
+  box-shadow: 0 10px 15px rgba(255, 83, 48, 0.35);
+  transition: all 0.3s;
+}
+.book-form button:hover {
+  box-shadow: 0 20px 25px rgba(255, 83, 48, 0.35);
+}
+
 /* Others */
 span {
   color: var(--secondary-color);
+}
+b {
+  color: red;
 }
 .icon-btn {
   fill: #fff;
