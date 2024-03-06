@@ -173,7 +173,7 @@ nav {
 }
 .book-content {
   background-color: #fff;
-  background-image: url(/static/media/book-bg.6f629a1….png);
+  background-image: url("../src/assets/booking-background.png");
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: cover;
