@@ -1,6 +1,7 @@
 import Hero from "../components/Hero.jsx";
 import Book from "../components/Book.jsx";
 import PlanTrip from "../components/PlanTrip.jsx";
+import PickCar from "../components/PickCar.jsx";
 
 const Home = () => {
   return (
@@ -8,6 +9,7 @@ const Home = () => {
       <Hero />
       <Book />
       <PlanTrip />
+      <PickCar />
     </div>
   );
 };
