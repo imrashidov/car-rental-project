@@ -1,12 +1,19 @@
 import { useState } from "react";
 import carModels from "../data/CarModels";
+import { PuffLoader } from "react-spinners";
 
 const PickCar = () => {
   const [activeCar, setActiveCar] = useState(0);
+  const [isLoading, setIsLoading] = useState(true);
   const car = carModels[activeCar];
+
+  const handleLoad = () => {
+    setIsLoading(false);
+  };
 
   const handleActiveCar = (e) => {
     setActiveCar(e);
+    setIsLoading(true);
   };
 
   return (
@@ -36,7 +43,13 @@ const PickCar = () => {
             </div>
           </div>
           <div className="car-content__car-image">
-            <img src={car.img} alt={car.title} />
+            {isLoading && <PuffLoader color={"#ff5a60"} className="loader" />}
+            <img
+              src={car.img}
+              alt={car.title}
+              onLoad={handleLoad}
+              style={{ display: isLoading ? "none" : "block" }}
+            />
           </div>
           <div className="car-content__car-details">
             <div className="car-details__price">
