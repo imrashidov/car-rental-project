@@ -1,8 +1,14 @@
+import car320 from "../assets/images/pick-car/car-320.jpg";
+import carA1 from "../assets/images/pick-car/car-a1.jpg";
+import carCamry from "../assets/images/pick-car/car-camry.jpg";
+import carGlk from "../assets/images/pick-car/car-glk.jpg";
+import carGolf from "../assets/images/pick-car/car-golf.jpg";
+import carPassat from "../assets/images/pick-car/car-passat.jpg";
 const carModels = [
   {
     id: 1,
     title: "Audi A1 S-Line",
-    img: "car-a1",
+    img: carA1,
     price: 45,
     brand: "Audi",
     model: "A1",
@@ -15,7 +21,7 @@ const carModels = [
   {
     id: 2,
     title: "VW Golf 6",
-    img: "car-golf",
+    img: carGolf,
     price: 37,
     brand: "Volkswagen",
     model: "Golf 6",
@@ -28,7 +34,7 @@ const carModels = [
   {
     id: 3,
     title: "Toyota Camry",
-    img: "car-camry",
+    img: carCamry,
     price: 30,
     brand: "Toyota",
     model: "Camry",
@@ -41,7 +47,7 @@ const carModels = [
   {
     id: 4,
     title: "BMW 320 ModernLine",
-    img: "car-320",
+    img: car320,
     price: 35,
     brand: "BMW",
     model: "320",
@@ -54,7 +60,7 @@ const carModels = [
   {
     id: 5,
     title: "Mercedes-Benz GLK",
-    img: "car-glk",
+    img: carGlk,
     price: 50,
     brand: "Mercedes",
     model: "GLK",
@@ -67,7 +73,7 @@ const carModels = [
   {
     id: 6,
     title: "VW Passat CC",
-    img: "car-passat",
+    img: carPassat,
     price: 25,
     brand: "Volkswagen",
     model: "Passat CC",
