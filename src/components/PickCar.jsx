@@ -16,50 +16,51 @@ const PickCar = () => {
           <div className="car-content__car-models">
             <div className="car-models__title">
               {carModels.map((carModel) => (
-                <h3 key={carModel.id}>{carModel.title}</h3>
+                <button key={carModel.id}>{carModel.title}</button>
               ))}
             </div>
           </div>
           <div className="car-content__car-image">
-            <img src={carModels[0].img} alt="" />
+            <img src={carModels[0].img} alt={carModels[0].title} />
           </div>
           <div className="car-content__car-details">
             <div className="car-details__price">
               <span>${carModels[0].price}</span>
               <p>/ rent per day</p>
             </div>
-            <table>
-              <tbody>
-                <tr>
-                  <td>Brand:</td>
-                  <td>{carModels[0].brand}</td>
-                </tr>
-                <tr>
-                  <td>Model:</td>
-                  <td>{carModels[0].model}</td>
-                </tr>
-                <tr>
-                  <td>Year:</td>
-                  <td>{carModels[0].year}</td>
-                </tr>
-                <tr>
-                  <td>Doors:</td>
-                  <td>{carModels[0].doors}</td>
-                </tr>
-                <tr>
-                  <td>AC:</td>
-                  <td>{carModels[0].ac}</td>
-                </tr>
-                <tr>
-                  <td>Transmission:</td>
-                  <td>{carModels[0].transmission}</td>
-                </tr>
-                <tr>
-                  <td>Fuel:</td>
-                  <td>{carModels[0].fuel}</td>
-                </tr>
-              </tbody>
-            </table>
+            <div className="car-content__details">
+              <div className="details">
+                <div>
+                  <span>Brand</span>
+                  <span>{carModels[0].brand}</span>
+                </div>
+                <div>
+                  <span>Model</span>
+                  <span>{carModels[0].model}</span>
+                </div>
+                <div>
+                  <span>Year</span>
+                  <span>{carModels[0].year}</span>
+                </div>
+                <div>
+                  <span>Doors</span>
+                  <span>{carModels[0].doors}</span>
+                </div>
+                <div>
+                  <span>AC</span>
+                  <span>{carModels[0].ac}</span>
+                </div>
+                <div>
+                  <span>Transmission</span>
+                  <span>{carModels[0].transmission}</span>
+                </div>
+                <div>
+                  <span>Fuel</span>
+                  <span>{carModels[0].fuel}</span>
+                </div>
+              </div>
+            </div>
+            <button>Reserve now</button>
           </div>
         </div>
       </div>
