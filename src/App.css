@@ -331,7 +331,6 @@ input[type="date" i] {
   grid-template-rows: auto;
   gap: 2rem;
   margin-top: 3rem;
-  margin-bottom: 3rem;
   align-items: center;
 }
 .car-content__car-models {
@@ -437,4 +436,8 @@ b {
 }
 .icon-btn {
   fill: #fff;
+}
+.active {
+  background-color: var(--secondary-color) !important;
+  color: #fff;
 }

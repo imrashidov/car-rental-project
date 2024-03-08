@@ -1,6 +1,14 @@
+import { useState } from "react";
 import carModels from "../data/CarModels";
 
 const PickCar = () => {
+  const [activeCar, setActiveCar] = useState(0);
+  const car = carModels[activeCar];
+
+  const handleActiveCar = (e) => {
+    setActiveCar(e);
+  };
+
   return (
     <section id="pick" className="pick-section">
       <div className="pick-container">
@@ -15,48 +23,55 @@ const PickCar = () => {
         <div className="pick-container__car-content">
           <div className="car-content__car-models">
             <div className="car-models__title">
-              {carModels.map((carModel) => (
-                <button key={carModel.id}>{carModel.title}</button>
+              {carModels.map((carModel, index) => (
+                <button
+                  key={carModel.id}
+                  id={index}
+                  onClick={(e) => handleActiveCar(e.target.id)}
+                  className={activeCar == index ? "active" : ""}
+                >
+                  {carModel.title}
+                </button>
               ))}
             </div>
           </div>
           <div className="car-content__car-image">
-            <img src={carModels[0].img} alt={carModels[0].title} />
+            <img src={car.img} alt={car.title} />
           </div>
           <div className="car-content__car-details">
             <div className="car-details__price">
-              <span>${carModels[0].price}</span>
+              <span>${car.price}</span>
               <p>/ rent per day</p>
             </div>
             <div className="car-content__details">
               <div className="details">
                 <div>
                   <span>Brand</span>
-                  <span>{carModels[0].brand}</span>
+                  <span>{car.brand}</span>
                 </div>
                 <div>
                   <span>Model</span>
-                  <span>{carModels[0].model}</span>
+                  <span>{car.model}</span>
                 </div>
                 <div>
                   <span>Year</span>
-                  <span>{carModels[0].year}</span>
+                  <span>{car.year}</span>
                 </div>
                 <div>
                   <span>Doors</span>
-                  <span>{carModels[0].doors}</span>
+                  <span>{car.doors}</span>
                 </div>
                 <div>
                   <span>AC</span>
-                  <span>{carModels[0].ac}</span>
+                  <span>{car.ac}</span>
                 </div>
                 <div>
                   <span>Transmission</span>
-                  <span>{carModels[0].transmission}</span>
+                  <span>{car.transmission}</span>
                 </div>
                 <div>
                   <span>Fuel</span>
-                  <span>{carModels[0].fuel}</span>
+                  <span>{car.fuel}</span>
                 </div>
               </div>
             </div>
