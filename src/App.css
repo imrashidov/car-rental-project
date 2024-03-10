@@ -365,6 +365,7 @@ input[type="date" i] {
 }
 .car-content__car-image img {
   height: 70%;
+  mix-blend-mode: multiply;
 }
 .car-content__car-details {
   width: fit-content;
