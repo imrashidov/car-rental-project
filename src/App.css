@@ -431,7 +431,7 @@ input[type="date" i] {
 
 /* Banner section */
 .banner-section {
-  margin-top: 10rem;
+  margin: 10rem 0;
   background-color: #2d2d2d;
   display: flex;
   justify-content: center;
