@@ -4,6 +4,7 @@ import PlanTrip from "../components/PlanTrip.jsx";
 import PickCar from "../components/PickCar.jsx";
 import Banner from "../components/Banner.jsx";
 import Choose from "../components/Choose.jsx";
+import Testimonials from "../components/Testimonials.jsx";
 
 const Home = () => {
   return (
@@ -14,6 +15,7 @@ const Home = () => {
       <PickCar />
       <Banner />
       <Choose />
+      <Testimonials />
     </div>
   );
 };
