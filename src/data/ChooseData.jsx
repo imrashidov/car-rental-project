@@ -1,8 +1,8 @@
-import { chooseDriver } from "../assets/images/choose/choose-driver.jpg";
-import { choosePricing } from "../assets/images/choose/choose-pricing.jpg";
-import { chooseCharge } from "../assets/images/choose/choose-charge.jpg";
+import chooseDrive from "../assets/images/choose/choose-drive.png";
+import choosePricing from "../assets/images/choose/choose-pricing.png";
+import chooseCharge from "../assets/images/choose/choose-charge.png";
 
-const ChooseData = [
+const chooseData = [
   {
     id: 1,
     img: chooseDrive,
@@ -22,4 +22,4 @@ const ChooseData = [
     desc: "Enjoy peace of mind with our no hidden charges policy. We believe in transparent and honest pricing.",
   },
 ];
-export default ChooseData;
+export default chooseData;
