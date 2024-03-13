@@ -629,9 +629,6 @@ input[type="date" i] {
 .faq-content {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
 }
 .faq-content__title {
   text-align: center;
@@ -652,6 +649,7 @@ input[type="date" i] {
   background-color: #fff;
   box-shadow: 0 20px 40px 0 rgba(0, 0, 0, 0.08);
 }
+
 .faq-box__question {
   display: flex;
   justify-content: space-between;
@@ -660,17 +658,18 @@ input[type="date" i] {
   cursor: pointer;
   font-weight: 500;
   font-size: 1.2rem;
-  transition: 0.15s ease;
 }
-.faq-box__question .logos {
+.faq-box__question .faq-chevron {
+  transform: rotate(0deg);
   transition: all 0.3s;
 }
 .faq-box__question-active {
   background-color: var(--secondary-color);
+  box-shadow: 0 10px 15px 0 rgba(255, 83, 48, 0.35);
   color: #fff;
   transition: all 0.3s;
 }
-.faq-box__question-active .logos {
+.faq-box__question-active .faq-chevron {
   transform: rotate(180deg);
   stroke: #fff;
   transition: all 0.3s;
@@ -679,11 +678,11 @@ input[type="date" i] {
   line-height: 1.7;
   max-height: 0;
   overflow: hidden;
-  transition: 0.4s all ease;
+  transition: 0.3s all ease;
 }
 .faq-box__answer-active {
   max-height: 20rem;
-  transition: 0.4s all ease;
+  transition: 0.3s all ease;
 }
 .faq-box__answer p {
   padding: 1rem 2rem;
