@@ -256,7 +256,7 @@ input[type="date" i] {
   justify-content: center;
   background-color: #f8f8f8;
   position: relative;
-  margin-top: 5rem;
+  padding: 5rem 0;
   text-align: center;
 }
 
@@ -289,7 +289,7 @@ input[type="date" i] {
   display: flex;
   justify-content: center;
   position: relative;
-  margin-top: 10rem;
+  padding: 5rem 0;
 }
 
 .pick-container__title {
@@ -441,11 +441,10 @@ input[type="date" i] {
 .choose-section {
   display: flex;
   justify-content: center;
+  padding: 5rem 0;
 }
 
 .choose-main {
-  padding: 0 2.5rem;
-  margin: 2rem 12.5rem 5rem;
   max-width: 95rem;
   display: flex;
   align-items: center;
@@ -540,7 +539,6 @@ input[type="date" i] {
   display: flex;
   justify-content: center;
   position: relative;
-  margin-top: 10rem;
   background-color: #f8f8f8;
   padding: 5rem 0;
 }
@@ -712,7 +710,7 @@ footer {
   display: flex;
   justify-content: center;
   background-color: #f8f8f8;
-  padding-top: 5rem;
+  padding: 5rem 0;
 }
 
 .footer-content {
