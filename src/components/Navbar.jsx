@@ -1,4 +1,3 @@
-import React from "react";
 import logo from "../assets/nav-logo.png";
 import NavLinks from "../data/NavLinks.jsx";
 
