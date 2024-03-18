@@ -1,9 +1,9 @@
-import HeroPages from "../components/HeroPages";
+// import HeroPages from "../components/HeroPages";
 
 const About = () => {
   return (
     <section id="about" className="about-section">
-      <HeroPages name="About" />
+      {/* <HeroPages name="About" /> */}
       <div className="container"></div>
     </section>
   );
