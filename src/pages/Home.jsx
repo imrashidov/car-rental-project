@@ -1,4 +1,3 @@
-import Navbar from "../components/Navbar.jsx";
 import Hero from "../components/Hero.jsx";
 import Book from "../components/Book.jsx";
 import PlanTrip from "../components/PlanTrip.jsx";
@@ -13,7 +12,6 @@ import Footer from "../components/Footer.jsx";
 const Home = () => {
   return (
     <div>
-      <Navbar />
       <Hero />
       <Book />
       <PlanTrip />

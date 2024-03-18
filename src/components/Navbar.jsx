@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import logo from "../assets/nav-logo.png";
 import NavLinks from "../data/NavLinks.jsx";
 
@@ -6,15 +7,15 @@ const Navbar = ({ title }) => {
     <nav>
       <div className="navbar">
         <div className="navbar-img">
-          <a href="/">
+          <Link to="/">
             <img src={logo} alt="Logo" />
-          </a>
+          </Link>
         </div>
         <ul className="navbar-links">
           {NavLinks.map((item, index) => {
             return (
               <li key={index}>
-                <a href="/">{item.title}</a>
+                <Link to={item.link}>{item.title}</Link>
               </li>
             );
           })}
