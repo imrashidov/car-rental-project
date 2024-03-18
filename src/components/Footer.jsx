@@ -4,7 +4,7 @@ import { IoIosMail } from "react-icons/io";
 const Footer = () => {
   return (
     <footer>
-      <div className="footer-container">
+      <div className="container">
         <div className="footer-content">
           <ul className="footer-content__1">
             <li>

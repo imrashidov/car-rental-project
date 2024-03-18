@@ -23,13 +23,17 @@ nav {
 }
 .navbar {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   align-items: center;
   gap: 15.2rem;
   margin: 0 auto;
   padding: 1.5rem 0rem;
   max-width: 95rem;
   z-index: 99999;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
 }
 .navbar-img {
   width: 9.5rem;
@@ -84,16 +88,13 @@ nav {
   background-color: #f8f8f8;
   height: 97vh;
   width: 100%;
+  padding-top: 5rem;
 }
 .hero-background {
   position: absolute;
   right: 0;
   top: 0;
   z-index: 1;
-}
-.hero-container {
-  width: 100%;
-  max-width: 95rem;
 }
 .hero-content {
   display: flex;
@@ -140,6 +141,8 @@ nav {
   display: flex;
   align-items: center;
   gap: 10px;
+  cursor: pointer;
+  font-size: 1rem;
 }
 
 .hero-content-btn-booking {
@@ -170,10 +173,7 @@ nav {
   justify-content: center;
   position: relative;
 }
-.book-container {
-  max-width: 95rem !important;
-  padding: 0 2.5rem !important;
-}
+
 .book-content {
   background-color: #f8f8f8;
   background-image: url("../src/assets/booking-background.png");
@@ -259,22 +259,7 @@ input[type="date" i] {
   margin-top: 5rem;
   text-align: center;
 }
-.plan-container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  max-width: 95rem;
-  padding: 0 2.5rem;
-  margin: 0 12.5rem;
-}
 
-.plan-container h1 {
-  font-size: 2.8rem;
-}
-.plan-container h3 {
-  font-weight: 500;
-  font-size: 1.6rem;
-}
 .plan-box {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -306,12 +291,7 @@ input[type="date" i] {
   position: relative;
   margin-top: 10rem;
 }
-.pick-container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 95rem;
-}
+
 .pick-container__title {
   text-align: center;
 }
@@ -526,6 +506,10 @@ input[type="date" i] {
   gap: 1rem;
   line-height: 1.5;
 }
+.text-container__right-box img {
+  width: 7rem;
+  height: 7rem;
+}
 .text-container__right-box h4 {
   font-size: 1.5rem;
 }
@@ -629,6 +613,7 @@ input[type="date" i] {
 .faq-content {
   display: flex;
   flex-direction: column;
+  align-items: center;
 }
 .faq-content__title {
   text-align: center;
@@ -698,12 +683,7 @@ input[type="date" i] {
   padding: 4rem 0;
   width: 100%;
 }
-.download-container {
-  display: flex;
-  flex-direction: column;
-  width: 95rem;
-  padding: 0 2.5rem;
-}
+
 .download-container__left {
   display: flex;
   flex-direction: column;
@@ -730,13 +710,8 @@ footer {
   background-color: #f8f8f8;
   padding-top: 5rem;
 }
-.footer-container {
-  padding: 5rem 0;
-  margin: 0 12.5rem;
-  width: 95rem;
-}
+
 .footer-content {
-  grid-gap: 8rem;
   color: #010103;
   display: grid;
   gap: 8rem;
@@ -744,7 +719,6 @@ footer {
   justify-content: center;
   text-align: left;
   font-size: 1.1rem;
-  padding: 0 2.5rem;
   font-weight: 400;
 }
 .footer-content ul {
@@ -802,6 +776,42 @@ footer {
 .footer-content__4 button:hover {
   box-shadow: 0 20px 25px 0 rgba(255, 83, 48, 0.35);
 }
+
+/* HeroPages section */
+.heroPage {
+  position: relative;
+  background-image: url("../src/assets/images/heroPages/heroPages-background.png");
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 21rem;
+  width: 100%;
+}
+.heroPage__overlay {
+  background-color: hsla(0, 0%, 100%, 0.92);
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.heroPage__text {
+  position: relative;
+  padding-top: 5rem;
+  height: 21rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  z-index: 3;
+}
+.heroPage__text h3 {
+  font-size: 2.4rem;
+}
+.heroPage__text p {
+  font-weight: 600;
+}
+
 /* Others */
 span {
   color: var(--secondary-color);
@@ -824,4 +834,14 @@ b {
   margin-left: auto;
   width: 4rem;
   height: 4rem;
+}
+.container {
+  width: 100%;
+  margin: 0 auto !important;
+  max-width: 95rem !important;
+  padding: 0 2.5rem !important;
+}
+a:hover {
+  color: var(--secondary-color);
+  transition: all 0.3s;
 }

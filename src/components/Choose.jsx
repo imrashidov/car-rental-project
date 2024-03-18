@@ -6,7 +6,7 @@ import { FaChevronRight } from "react-icons/fa";
 const Choose = () => {
   return (
     <section id="choose" className="choose-section">
-      <div className="choose-container">
+      <div className="container">
         <div className="choose-main">
           <img
             src={chooseMain}

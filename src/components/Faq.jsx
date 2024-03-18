@@ -18,7 +18,7 @@ const Faq = () => {
 
   return (
     <section id="faq" className="faq-section">
-      <div className="faq-container">
+      <div className="container">
         <div className="faq-content">
           <div className="faq-content__title">
             <h4>FAQ</h4>

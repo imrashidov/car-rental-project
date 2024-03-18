@@ -5,7 +5,7 @@ import { FaCalendarAlt } from "react-icons/fa";
 const Book = () => {
   return (
     <section id="book" className="book-section">
-      <div className="book-container">
+      <div className="container">
         <div className="book-content">
           <h1>Book a car</h1>
           <form className="book-form">

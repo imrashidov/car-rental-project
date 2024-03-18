@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import logo from "../assets/nav-logo.png";
 import NavLinks from "../data/NavLinks.jsx";
 
-const Navbar = ({ title }) => {
+const Navbar = () => {
   return (
     <nav>
       <div className="navbar">
@@ -12,9 +12,9 @@ const Navbar = ({ title }) => {
           </Link>
         </div>
         <ul className="navbar-links">
-          {NavLinks.map((item, index) => {
+          {NavLinks.map((item) => {
             return (
-              <li key={index}>
+              <li key={item.link}>
                 <Link to={item.link}>{item.title}</Link>
               </li>
             );

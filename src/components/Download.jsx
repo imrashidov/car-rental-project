@@ -4,7 +4,7 @@ import downloadApp from "../assets/images/download/download-appstore.png";
 const Download = () => {
   return (
     <section id="download" className="download-section">
-      <div className="download-container">
+      <div className="container">
         <div className="download-container__left">
           <h2>Download our app to get most out of it</h2>
           <p>

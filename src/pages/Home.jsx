@@ -7,7 +7,6 @@ import Choose from "../components/Choose.jsx";
 import Testimonials from "../components/Testimonials.jsx";
 import Faq from "../components/Faq.jsx";
 import Download from "../components/Download.jsx";
-import Footer from "../components/Footer.jsx";
 
 const Home = () => {
   return (
@@ -21,7 +20,6 @@ const Home = () => {
       <Testimonials />
       <Faq />
       <Download />
-      <Footer />
     </div>
   );
 };

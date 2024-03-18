@@ -5,7 +5,7 @@ import { FaQuoteRight } from "react-icons/fa";
 const Testimonials = () => {
   return (
     <section id="testimonials" className="testimonials-section">
-      <div className="testimonials-container">
+      <div className="container">
         <div className="testimonials-title">
           <h4>Reviewed by People</h4>
           <h2>Client's Testimonials</h2>

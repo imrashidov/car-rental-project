@@ -18,7 +18,7 @@ const PickCar = () => {
 
   return (
     <section id="pick" className="pick-section">
-      <div className="pick-container">
+      <div className="container">
         <div className="pick-container__title">
           <h5>Vehicle Models</h5>
           <h1>Our rental fleet</h1>

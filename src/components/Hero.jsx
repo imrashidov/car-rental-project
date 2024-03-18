@@ -6,7 +6,7 @@ const Hero = () => {
   const iconStyle = { color: "red" };
   return (
     <section id="hero" className="hero-section">
-      <div className="hero-container">
+      <div className="container">
         <img src={background} alt="Background" className="hero-background" />
         <div className="hero-content">
           <div className="hero-content-text">
@@ -22,15 +22,15 @@ const Hero = () => {
               flexible pick-up options and much more.
             </p>
             <div className="hero-content-btn">
-              <a href="/" className="hero-content-btn-booking">
+              <button href="/" className="hero-content-btn-booking">
                 Book Ride <FaRegCheckCircle className="icon-btn" />
-              </a>
-              <a href="/" className="hero-content-btn-learn-more">
+              </button>
+              <button href="/" className="hero-content-btn-learn-more">
                 Learn More <FaChevronRight className="icon-btn" />
-              </a>
+              </button>
             </div>
           </div>
-          <img src={heroCar} alt="Car Photo" />
+          <img src={heroCar} alt="Red Car Photo" />
         </div>
       </div>
     </section>

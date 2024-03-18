@@ -26,7 +26,7 @@ const PlanTrip = () => {
 
   return (
     <section id="plan" className="plan-section">
-      <div className="plan-container">
+      <div className="container">
         <h3>Plan your trip now</h3>
         <h1>Quick & easy car rental</h1>
         <div>
