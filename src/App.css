@@ -779,8 +779,10 @@ footer {
   font-weight: 600;
   font-size: 1rem;
   cursor: pointer;
+  transition: all 0.3s;
 }
 .footer-content__4 button:hover {
+  transition: all 0.3s;
   box-shadow: 0 20px 25px 0 rgba(255, 83, 48, 0.35);
 }
 
