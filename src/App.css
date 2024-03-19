@@ -258,6 +258,12 @@ input[type="date" i] {
   padding: 5rem 0;
   text-align: center;
 }
+.plan-section h1 {
+  font-size: 2.8rem;
+}
+.plan-section h3 {
+  font-size: 1.6rem;
+}
 
 .plan-box {
   display: grid;
@@ -781,7 +787,7 @@ footer {
 /* HeroPages section */
 .heroPage {
   position: relative;
-  background-image: url("../src/assets/images/heroPages/heroPages-background.png");
+  background-image: url("../src/assets/images/hero-page/heroPages-background.png");
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -811,6 +817,60 @@ footer {
 }
 .heroPage__text p {
   font-weight: 600;
+}
+/* About Page About Main */
+.about-main {
+  display: flex;
+  justify-content: center;
+  padding: 5rem;
+  gap: 2rem;
+}
+.about-main__img {
+  padding: 2.5rem;
+}
+.about-main__text {
+  width: 30rem;
+}
+.about-main__text h4 {
+  font-size: 1.6rem;
+  font-weight: 500;
+}
+.about-main__text h2 {
+  font-size: 2.4rem;
+  margin-bottom: 1.5rem;
+}
+.about-main__text p {
+  color: var(--description-color);
+  font-size: 1rem;
+  margin-bottom: 1.5rem;
+}
+.about-main__text-icons {
+  grid-gap: 2rem;
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.about-main__text-icons-box {
+  padding-top: 1rem;
+  display: flex;
+  justify-content: end;
+  flex-direction: column;
+  align-items: start;
+}
+.about-main__text-icons-box span {
+  display: flex;
+  gap: 0.5rem;
+  height: 50%;
+}
+.about-main__text-icons-box h4 {
+  font-size: 3rem;
+  font-weight: 700;
+}
+.about-main__text-icons-box p {
+  display: flex;
+  align-items: center;
+  padding-top: 0.5rem;
+  height: 100%;
 }
 
 /* Others */
