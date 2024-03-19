@@ -1,5 +1,6 @@
 import HeroPages from "../components/HeroPages";
 import PlanTrip from "../components/PlanTrip";
+import BookBanner from "../components/BookBanner";
 import aboutMain from "../assets/images/about/about-main.jpg";
 import aboutImg1 from "../assets/images/about/about-types.png";
 import aboutImg2 from "../assets/images/about/about-rental.png";
@@ -49,6 +50,7 @@ const About = () => {
         </div>
         <PlanTrip />
       </div>
+      <BookBanner />
     </section>
   );
 };
