@@ -9,11 +9,11 @@ const Testimonial = () => {
       <div className="container">
         <div className="testimonials-title">
           <h4>Reviewed by People</h4>
-          <h2>Client's Testimonials</h2>
+          <h2>Client&apos;s Testimonials</h2>
           <p>
-            Discover the positive impact we've made on the our clients by
+            Discover the positive impact we&apos;ve made on the our clients by
             reading through their testimonials. Our clients have experienced our
-            service and results, and they're eager to share their positive
+            service and results, and they&apos;re eager to share their positive
             experiences with you.
           </p>
         </div>
