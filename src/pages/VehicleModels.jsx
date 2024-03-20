@@ -1,5 +1,5 @@
-import HeroPages from "../components/HeroPages";
-import BookBanner from "../components/BookBanner";
+import HeroPages from "../components/HeroPages/HeroPages.jsx";
+import BookBanner from "../components/BookBanner/BookBanner.jsx";
 import carModels from "../data/CarModels";
 import { IoStarOutline } from "react-icons/io5";
 

@@ -1,5 +1,5 @@
 import { useState } from "react";
-import carModels from "../data/CarModels";
+import carModels from "../../data/CarModels";
 import { PuffLoader } from "react-spinners";
 
 const PickCar = () => {

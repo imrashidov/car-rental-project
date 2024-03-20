@@ -1,5 +1,5 @@
-import downloadGoogle from "../assets/images/download/download-google.png";
-import downloadApp from "../assets/images/download/download-appstore.png";
+import downloadGoogle from "../../assets/images/download/download-google.png";
+import downloadApp from "../../assets/images/download/download-appstore.png";
 
 const Download = () => {
   return (

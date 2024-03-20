@@ -1,12 +1,12 @@
-import Hero from "../components/Hero.jsx";
-import Book from "../components/Book.jsx";
-import PlanTrip from "../components/PlanTrip.jsx";
-import PickCar from "../components/PickCar.jsx";
-import Banner from "../components/Banner.jsx";
-import Choose from "../components/Choose.jsx";
-import Testimonial from "../components/Testimonial.jsx";
-import Faq from "../components/Faq.jsx";
-import Download from "../components/Download.jsx";
+import Hero from "../components/Hero/Hero.jsx";
+import Book from "../components/Book/Book.jsx";
+import PlanTrip from "../components/PlanTrip/PlanTrip.jsx";
+import PickCar from "../components/PickCar/PickCar.jsx";
+import Banner from "../components/Banner/Banner.jsx";
+import Choose from "../components/Choose/Choose.jsx";
+import Testimonial from "../components/Testimonial/Testimonial.jsx";
+import Faq from "../components/Faq/Faq.jsx";
+import Download from "../components/Download/Download.jsx";
 
 const Home = () => {
   return (

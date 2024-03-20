@@ -1,6 +1,6 @@
 import React from "react";
-import chooseMain from "../assets/images/choose/choose-main.png";
-import chooseData from "../data/ChooseData";
+import chooseMain from "../../assets/images/choose/choose-main.png";
+import chooseData from "../../data/ChooseData";
 import { FaChevronRight } from "react-icons/fa";
 
 const Choose = () => {

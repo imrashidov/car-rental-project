@@ -1,5 +1,5 @@
-import background from "../assets/background.png";
-import heroCar from "../assets/home-car.png";
+import background from "../../assets/background.png";
+import heroCar from "../../assets/home-car.png";
 import { FaRegCheckCircle } from "react-icons/fa";
 import { FaChevronRight } from "react-icons/fa";
 const Hero = () => {

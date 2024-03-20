@@ -1,5 +1,5 @@
-import testimonialsImg1 from "../assets/images/testimonials/testimonials-img1.jpg";
-import testimonialsImg2 from "../assets/images/testimonials/testimonials-img2.jpg";
+import testimonialsImg1 from "../../assets/images/testimonials/testimonials-img1.jpg";
+import testimonialsImg2 from "../../assets/images/testimonials/testimonials-img2.jpg";
 import { FaQuoteRight } from "react-icons/fa";
 
 const Testimonial = () => {
