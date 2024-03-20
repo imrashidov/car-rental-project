@@ -4,7 +4,6 @@ import heroCar from "../../assets/home-car.png";
 import { FaRegCheckCircle } from "react-icons/fa";
 import { FaChevronRight } from "react-icons/fa";
 const Hero = () => {
-  const iconStyle = { color: "red" };
   return (
     <section id="hero" className="hero-section">
       <div className="container">
