@@ -4,7 +4,7 @@ import PlanTrip from "../components/PlanTrip.jsx";
 import PickCar from "../components/PickCar.jsx";
 import Banner from "../components/Banner.jsx";
 import Choose from "../components/Choose.jsx";
-import Testimonials from "../components/Testimonials.jsx";
+import Testimonial from "../components/Testimonial.jsx";
 import Faq from "../components/Faq.jsx";
 import Download from "../components/Download.jsx";
 
@@ -17,7 +17,7 @@ const Home = () => {
       <PickCar />
       <Banner />
       <Choose />
-      <Testimonials />
+      <Testimonial />
       <Faq />
       <Download />
     </div>

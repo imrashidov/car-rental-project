@@ -1005,11 +1005,13 @@ footer {
   width: 100%;
   border-bottom: 1px solid #c6c6c6;
 }
+
 .models-box__details span {
   color: var(--description-color);
   font-weight: 500;
   display: flex;
 }
+
 /* Others */
 span {
   color: var(--secondary-color);
