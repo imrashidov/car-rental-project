@@ -1,12 +1,12 @@
 import "./App.css";
 import { Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar/Navbar.jsx";
-import Home from "./pages/Home.jsx";
-import About from "./pages/About.jsx";
-import VehicleModels from "./pages/VehicleModels.jsx";
-import Testimonials from "./pages/Testimonials.jsx";
-import OurTeam from "./pages/OurTeam.jsx";
-import Contact from "./pages/Contact.jsx";
+import Home from "./pages/Home/Home.jsx";
+import About from "./pages/About/About.jsx";
+import VehicleModels from "./pages/VehicleModels/VehicleModels.jsx";
+import Testimonials from "./pages/Testimonials/Testimonials.jsx";
+import OurTeam from "./pages/OurTeam/OurTeam.jsx";
+import Contact from "./pages/Contact/Contact.jsx";
 import Footer from "./components/Footer/Footer.jsx";
 
 function App() {

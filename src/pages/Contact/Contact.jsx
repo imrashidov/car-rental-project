@@ -1,5 +1,6 @@
-import HeroPages from "../components/HeroPages/HeroPages.jsx";
-import BookBanner from "../components/BookBanner/BookBanner.jsx";
+import "./Contact.css";
+import HeroPages from "../../components/HeroPages/HeroPages.jsx";
+import BookBanner from "../../components/BookBanner/BookBanner.jsx";
 import { IoIosCall } from "react-icons/io";
 import { IoIosMail } from "react-icons/io";
 import { FiNavigation } from "react-icons/fi";

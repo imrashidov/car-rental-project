@@ -1,3 +1,4 @@
+import "./BookBanner.css";
 import { IoCallOutline } from "react-icons/io5";
 
 const BookBanner = () => {

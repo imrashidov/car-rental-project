@@ -1,4 +1,4 @@
-import React from "react";
+import "./Choose.css";
 import chooseMain from "../../assets/images/choose/choose-main.png";
 import chooseData from "../../data/ChooseData";
 import { FaChevronRight } from "react-icons/fa";

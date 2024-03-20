@@ -1,0 +1,21 @@
+/* Banner section */
+.banner-section {
+  margin: 5rem 0;
+  background-color: #2d2d2d;
+  display: flex;
+  justify-content: center;
+  padding: 3rem 0;
+  text-align: center;
+}
+.banner-section * {
+  color: #fff;
+}
+.banner-section h2 {
+  font-size: 2.8rem;
+}
+.banner-section p {
+  font-size: 1.6rem;
+}
+.banner-section span {
+  color: var(--secondary-color);
+}

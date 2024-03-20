@@ -1,4 +1,5 @@
 import { useState } from "react";
+import "./Faq.css";
 import { IoChevronDown } from "react-icons/io5";
 
 const Faq = () => {

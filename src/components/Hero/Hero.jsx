@@ -1,3 +1,4 @@
+import "./Hero.css";
 import background from "../../assets/background.png";
 import heroCar from "../../assets/home-car.png";
 import { FaRegCheckCircle } from "react-icons/fa";

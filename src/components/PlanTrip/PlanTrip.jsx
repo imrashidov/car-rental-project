@@ -1,3 +1,4 @@
+import "./PlanTrip.css";
 import planCar from "../../assets/plan-car.png";
 import planOperator from "../../assets/plan-operator.png";
 import planDrive from "../../assets/plan-drive.png";

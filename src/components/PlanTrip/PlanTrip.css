@@ -1,0 +1,39 @@
+/* PlanTrip Component */
+
+.plan-section {
+  display: flex;
+  justify-content: center;
+  background-color: #f8f8f8;
+  position: relative;
+  padding: 5rem 0;
+  text-align: center;
+}
+.plan-section h1 {
+  font-size: 2.8rem;
+}
+.plan-section h3 {
+  font-size: 1.6rem;
+}
+
+.plan-box {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto;
+  margin-top: 3rem;
+  padding: 0 2.5rem;
+}
+.plan-box div {
+  padding: 2rem 3rem;
+}
+.plan-box img {
+  width: 45%;
+}
+.plan-box h5 {
+  font-size: 1.6rem;
+  margin-bottom: 1rem;
+}
+.plan-box p {
+  color: var(--description-color);
+  font-size: 0.9rem;
+  margin-bottom: 1rem;
+}

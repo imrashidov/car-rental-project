@@ -1,3 +1,4 @@
+import "./Download.css";
 import downloadGoogle from "../../assets/images/download/download-google.png";
 import downloadApp from "../../assets/images/download/download-appstore.png";
 

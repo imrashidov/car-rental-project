@@ -1,0 +1,81 @@
+/* Booking Component */
+.book-section {
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+.book-content {
+  background-color: #f8f8f8;
+  background-image: url("../src/assets/booking-background.png");
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 5px;
+  box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.1);
+  position: relative;
+  width: 100%;
+  padding: 4rem 5rem;
+  z-index: 4;
+}
+.book-form {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto auto auto;
+  grid-gap: 2rem;
+  gap: 2rem;
+}
+.book-content h1 {
+  margin-bottom: 3rem;
+}
+
+.book-form-select,
+.book-form-time {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 1.4rem;
+}
+.book-form-select label,
+.book-form-time label {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+  font-weight: 500;
+}
+.book-form-select select,
+.book-form-time input {
+  width: 25rem;
+  padding: 0.7rem;
+  color: #ababab;
+  border: 1px solid #ccd7e6;
+  border-radius: 3px;
+  cursor: pointer;
+}
+input[type="date" i] {
+  cursor: default;
+}
+.book-form-select option {
+  color: #ababab;
+  font-size: 1rem;
+}
+
+.book-form button {
+  font-weight: 600;
+  font-size: 1.4rem;
+  color: #fff;
+  background: var(--secondary-color);
+  border: none;
+  width: 25rem;
+  height: fit-content;
+  align-self: self-end;
+  padding: 0.7rem;
+  box-shadow: 0 10px 15px rgba(255, 83, 48, 0.35);
+  transition: all 0.3s;
+  cursor: pointer;
+}
+.book-form button:hover {
+  box-shadow: 0 20px 25px rgba(255, 83, 48, 0.35);
+}

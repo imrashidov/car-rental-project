@@ -1,6 +1,7 @@
-import HeroPages from "../components/HeroPages/HeroPages.jsx";
-import BookBanner from "../components/BookBanner/BookBanner.jsx";
-import Members from "../data/Members.jsx";
+import "./OurTeam.css";
+import HeroPages from "../../components/HeroPages/HeroPages.jsx";
+import BookBanner from "../../components/BookBanner/BookBanner.jsx";
+import Members from "../../data/Members.jsx";
 
 const OurTeam = () => {
   return (

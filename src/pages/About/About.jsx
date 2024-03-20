@@ -1,10 +1,11 @@
-import PlanTrip from "../components/PlanTrip/PlanTrip.jsx";
-import HeroPages from "../components/HeroPages/HeroPages.jsx";
-import BookBanner from "../components/BookBanner/BookBanner.jsx";
-import aboutMain from "../assets/images/about/about-main.jpg";
-import aboutImg1 from "../assets/images/about/about-types.png";
-import aboutImg2 from "../assets/images/about/about-rental.png";
-import aboutImg3 from "../assets/images/about/about-repair.png";
+import "./About.css";
+import PlanTrip from "../../components/PlanTrip/PlanTrip.jsx";
+import HeroPages from "../../components/HeroPages/HeroPages.jsx";
+import BookBanner from "../../components/BookBanner/BookBanner.jsx";
+import aboutMain from "../../assets/images/about/about-main.jpg";
+import aboutImg1 from "../../assets/images/about/about-types.png";
+import aboutImg2 from "../../assets/images/about/about-rental.png";
+import aboutImg3 from "../../assets/images/about/about-repair.png";
 
 const About = () => {
   return (

@@ -1,0 +1,55 @@
+/* Book Banner */
+.book-banner {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding: 4rem 0;
+  background-image: url("../src/assets/book-banner-bg.png");
+  margin: 5rem 0;
+  position: relative;
+  height: 13rem;
+}
+.book-banner__overlay {
+  background-color: #2d2d2d;
+  height: 100%;
+  opacity: 0.89;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 100%;
+}
+.book-banner__text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  font-size: 1.6rem;
+  z-index: 3;
+  position: relative;
+  height: 100%;
+}
+.book-banner__text * {
+  color: #fff;
+}
+.book-banner__text span {
+  display: flex;
+  fill: var(--secondary-color);
+  align-items: center;
+  gap: 1rem;
+}
+.book-banner__text span:first-child {
+  width: 2rem;
+  fill: var(--secondary-color);
+  stroke: var(--secondary-color);
+}
+.book-banner__text span h3 {
+  color: var(--secondary-color);
+}
+.book-banner__logo {
+  width: 2rem;
+  height: 2rem;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  stroke: var(--secondary-color);
+}
