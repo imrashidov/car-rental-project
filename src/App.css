@@ -1011,6 +1011,35 @@ footer {
   font-weight: 500;
   display: flex;
 }
+/* Our Team Page */
+.team-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto;
+  padding: 7rem;
+  text-align: center;
+  grid-gap: 1.5rem;
+  row-gap: 4rem;
+}
+.member-box {
+  border-radius: 5px;
+  box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.1);
+  width: 20rem;
+}
+.member-box__img {
+  background-color: #f6f6f6;
+}
+.member-box__img img {
+  width: 100%;
+  object-fit: cover;
+}
+.member-box__name {
+  padding: 2rem;
+  height: fit-content;
+}
+.member-box__name p {
+  color: var(--description-color);
+}
 
 /* Others */
 span {

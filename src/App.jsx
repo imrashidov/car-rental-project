@@ -5,6 +5,7 @@ import Home from "./pages/Home.jsx";
 import About from "./pages/About.jsx";
 import VehicleModels from "./pages/VehicleModels.jsx";
 import Testimonials from "./pages/Testimonials.jsx";
+import OurTeam from "./pages/OurTeam.jsx";
 import Footer from "./components/Footer.jsx";
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
         <Route path="about" element={<About />} />
         <Route path="vehicle-models" element={<VehicleModels />} />
         <Route path="testimonials" element={<Testimonials />} />
+        <Route path="our-team" element={<OurTeam />} />
       </Routes>
       <Footer />
     </>
