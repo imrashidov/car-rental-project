@@ -20,8 +20,9 @@ const Testimonial = () => {
         <div className="testimonials-boxes">
           <div className="testimonials-box1">
             <p>
-              "We rented a car from this website and had an amazing experience!
-              The booking was easy and the rental rates were very affordable. "
+              &quot;We rented a car from this website and had an amazing
+              experience! The booking was easy and the rental rates were very
+              affordable. &quot;
             </p>
             <div className="testimonials-box__name">
               <div className="testimonials-box-name__profile">
@@ -36,8 +37,8 @@ const Testimonial = () => {
           </div>
           <div className="testimonials-box2">
             <p>
-              "The car was in great condition and made our trip even better.
-              Highly recommend for this car rental website!"
+              &quot;The car was in great condition and made our trip even
+              better. Highly recommend for this car rental website!&quot;
             </p>
             <div className="testimonials-box__name">
               <div className="testimonials-box-name__profile">
