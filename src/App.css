@@ -12,6 +12,8 @@
   list-style-type: none;
   color: var(--primary-color);
   font-family: "Poppins", sans-serif;
+  scrollbar-color: #ff4d30 #fff;
+  scrollbar-width: thin;
 }
 body {
   background-color: #f8f8f8;
