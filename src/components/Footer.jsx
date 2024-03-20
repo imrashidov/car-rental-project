@@ -15,13 +15,13 @@ const Footer = () => {
               have the perfect car to meet your needs.
             </li>
             <li>
-              <IoIosCall />
-              <a href="tel:123456789">(123)-456-789</a>
+              <a href="tel:123456789">
+                <IoIosCall /> (123)-456-789
+              </a>
             </li>
             <li>
-              <IoIosMail />
               <a href="mailto:contact@faridrashidov.com">
-                contact@faridrashidov.com
+                <IoIosMail /> contact@faridrashidov.com
               </a>
             </li>
             <li>Design by XpeedStudio</li>
