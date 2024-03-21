@@ -52,3 +52,27 @@
   padding-top: 0.5rem;
   height: 100%;
 }
+
+@media (max-width: 768px) {
+  .about-main {
+    padding: 1.5rem;
+    flex-direction: column;
+    align-items: center;
+  }
+  .about-main__img,
+  .about-main__text {
+    padding: 0;
+    width: 100%;
+    text-align: center;
+  }
+  .about-main__text-icons {
+    grid-template-columns: 1fr;
+  }
+  .about-main__text-icons-box {
+    align-items: center;
+    justify-content: center;
+  }
+  .about-main__text-icons-box span {
+    flex-direction: column;
+  }
+}
