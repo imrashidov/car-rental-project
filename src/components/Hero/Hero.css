@@ -84,7 +84,7 @@
   box-shadow: 0 10px 15px 0 rgba(255, 83, 48, 0.35);
 }
 
-@media screen and (max-width: 768px) {
+@media (max-width: 768px) {
   .hero-content img,
   .hero-background {
     display: none;

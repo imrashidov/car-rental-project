@@ -130,7 +130,7 @@
   cursor: pointer;
 }
 
-@media screen and (max-width: 728px) {
+@media (max-width: 728px) {
   .pick-container__car-content {
     grid-template-columns: 1fr;
   }

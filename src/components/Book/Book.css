@@ -80,7 +80,7 @@ input[type="date" i] {
   box-shadow: 0 20px 25px rgba(255, 83, 48, 0.35);
 }
 
-@media screen and (max-width: 768px) {
+@media (max-width: 768px) {
   .book-content {
     padding: 2rem 1rem;
   }
