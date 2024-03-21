@@ -53,3 +53,25 @@
   flex-shrink: 0;
   stroke: var(--secondary-color);
 }
+
+@media (max-width: 768px) {
+  .book-banner {
+    text-align: center;
+    padding: 2rem 0;
+    margin: 2rem 0;
+  }
+  .book-banner__text {
+    flex-direction: column;
+    gap: 1rem;
+  }
+  .book-banner__text span {
+    gap: 0.5rem;
+  }
+  .book-banner__text span h3 {
+    font-size: 1.2rem;
+  }
+  .book-banner__logo {
+    width: 1.5rem;
+    height: 1.5rem;
+  }
+}
