@@ -19,3 +19,15 @@
 .banner-section span {
   color: var(--secondary-color);
 }
+
+@media (max-width: 768px) {
+  .banner-section {
+    padding: 3rem 0;
+  }
+  .banner-section h2 {
+    font-size: 2.4rem;
+  }
+  .banner-section p {
+    font-size: 1.2rem;
+  }
+}
