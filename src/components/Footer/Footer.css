@@ -74,3 +74,20 @@ footer {
   transition: all 0.3s;
   box-shadow: 0 20px 25px 0 rgba(255, 83, 48, 0.35);
 }
+
+@media (max-width: 768px) {
+  footer {
+    padding: 3rem 0;
+  }
+  .footer-content {
+    grid-template-columns: 1fr;
+    gap: 3rem;
+    text-align: center;
+  }
+  .footer-content ul {
+    align-items: center;
+  }
+  .footer-content__4 li {
+    width: 100%;
+  }
+}
