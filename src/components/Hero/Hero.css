@@ -108,9 +108,7 @@
     width: 16rem;
     font-size: 1.2rem;
   }
-}
-@media screen and (min-width: 1280px) {
-  .navbar-slider {
-    display: none;
+  .hero-content-btn * {
+    justify-content: center;
   }
 }

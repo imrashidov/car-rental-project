@@ -132,7 +132,8 @@
 }
 @media screen and (min-width: 1280px) {
   .navbar-mobile,
-  .navbar-menu {
+  .navbar-menu,
+  .navbar-slider {
     display: none;
   }
 }
