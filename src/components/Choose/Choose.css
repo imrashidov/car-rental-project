@@ -95,3 +95,25 @@
   width: fit-content;
   height: fit-content;
 }
+
+@media (max-width: 768px) {
+  .choose-main img {
+    width: 100%;
+  }
+  .text-container {
+    flex-direction: column;
+    gap: 5rem;
+    text-align: center;
+  }
+  .text-container__left {
+    align-items: center;
+  }
+  .text-container__right-box {
+    flex-direction: column;
+    align-items: center;
+  }
+  .text-container__right-box img {
+    width: 7em;
+    height: 7em;
+  }
+}
