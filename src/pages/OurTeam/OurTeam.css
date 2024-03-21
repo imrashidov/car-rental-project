@@ -27,3 +27,12 @@
 .member-box__name p {
   color: var(--description-color);
 }
+
+@media (max-width: 768px) {
+  .team-container {
+    padding: 3rem;
+    grid-template-columns: 1fr;
+  }
+  .member-box {
+    width: 100%;
+  }
