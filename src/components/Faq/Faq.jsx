@@ -37,7 +37,9 @@ const Faq = () => {
                 className={`faq-box__question  ${getClassQuestion("q1")}`}
               >
                 1. What is special about comparing rental car deals?{" "}
-                <IoChevronDown className="faq-chevron" />
+                <span>
+                  <IoChevronDown className="faq-chevron" />
+                </span>
               </div>
               <div
                 id="q1"
@@ -62,7 +64,9 @@ const Faq = () => {
                 className={`faq-box__question ${getClassQuestion("q2")}`}
               >
                 2. How do I find the car rental deals?{" "}
-                <IoChevronDown className="faq-chevron" />
+                <span>
+                  <IoChevronDown className="faq-chevron" />
+                </span>
               </div>
               <div
                 id="q2"
@@ -87,7 +91,9 @@ const Faq = () => {
                 className={`faq-box__question ${getClassQuestion("q3")}`}
               >
                 3. How do I find such low rental car prices?{" "}
-                <IoChevronDown className="faq-chevron" />
+                <span>
+                  <IoChevronDown className="faq-chevron" />
+                </span>
               </div>
               <div
                 id="q3"
