@@ -129,3 +129,21 @@
   text-transform: uppercase;
   cursor: pointer;
 }
+
+@media screen and (max-width: 728px) {
+  .pick-container__car-content {
+    grid-template-columns: 1fr;
+  }
+  .car-content__car-image {
+    width: 100%;
+  }
+  .car-content__car-details {
+    margin-left: 0;
+  }
+  .car-content__car-details button,
+  .pick-container__title p,
+  .car-content__car-models,
+  .car-content__car-details {
+    width: 100%;
+  }
+}
