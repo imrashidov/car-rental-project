@@ -78,3 +78,9 @@
   font-weight: 500;
   display: flex;
 }
+
+@media (max-width: 768px) {
+  .models {
+    grid-template-columns: 1fr;
+  }
+}
