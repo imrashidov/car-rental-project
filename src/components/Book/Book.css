@@ -18,10 +18,10 @@
   padding: 4rem 5rem;
   z-index: 4;
 }
-.book-form {
+.book-form form {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: auto auto auto;
+  grid-template-rows: auto;
   grid-gap: 2rem;
   gap: 2rem;
 }
@@ -78,4 +78,26 @@ input[type="date" i] {
 }
 .book-form button:hover {
   box-shadow: 0 20px 25px rgba(255, 83, 48, 0.35);
+}
+
+@media screen and (max-width: 768px) {
+  .book-content {
+    padding: 2rem 1rem;
+  }
+  .book-form form {
+    grid-template-columns: 1fr;
+    width: 100%;
+  }
+
+  .book-form-select,
+  .book-form-time label {
+    font-size: 1.1rem;
+  }
+  .book-form-select select,
+  input[type="date" i] {
+    width: 100%;
+  }
+  .book-form button {
+    width: 100%;
+  }
 }
