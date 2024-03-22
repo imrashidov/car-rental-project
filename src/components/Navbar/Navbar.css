@@ -118,6 +118,11 @@
   background-color: black;
   color: #fff;
 }
+.navbar-menu svg:hover,
+.navbar-slider svg:hover {
+  cursor: pointer;
+  fill: var(--secondary-color);
+}
 
 @media (max-width: 1050px) {
   .navbar {
