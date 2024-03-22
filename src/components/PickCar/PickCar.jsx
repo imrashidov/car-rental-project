@@ -43,53 +43,55 @@ const PickCar = () => {
               ))}
             </div>
           </div>
-          <div className="car-content__car-image">
-            {isLoading && <PuffLoader color={"#ff5a60"} className="loader" />}
-            <img
-              src={car.img}
-              alt={car.title}
-              onLoad={handleLoad}
-              style={{ display: isLoading ? "none" : "block" }}
-            />
-          </div>
-          <div className="car-content__car-details">
-            <div className="car-details__price">
-              <span>${car.price}</span>
-              <p>/ rent per day</p>
+          <div className="car-image-details">
+            <div className="car-content__car-image">
+              {isLoading && <PuffLoader color={"#ff5a60"} className="loader" />}
+              <img
+                src={car.img}
+                alt={car.title}
+                onLoad={handleLoad}
+                style={{ display: isLoading ? "none" : "block" }}
+              />
             </div>
-            <div className="car-content__details">
-              <div className="details">
-                <div>
-                  <span>Brand</span>
-                  <span>{car.brand}</span>
-                </div>
-                <div>
-                  <span>Model</span>
-                  <span>{car.model}</span>
-                </div>
-                <div>
-                  <span>Year</span>
-                  <span>{car.year}</span>
-                </div>
-                <div>
-                  <span>Doors</span>
-                  <span>{car.doors}</span>
-                </div>
-                <div>
-                  <span>AC</span>
-                  <span>{car.ac}</span>
-                </div>
-                <div>
-                  <span>Transmission</span>
-                  <span>{car.transmission}</span>
-                </div>
-                <div>
-                  <span>Fuel</span>
-                  <span>{car.fuel}</span>
+            <div className="car-content__car-details">
+              <div className="car-details__price">
+                <span>${car.price}</span>
+                <p>/ rent per day</p>
+              </div>
+              <div className="car-content__details">
+                <div className="details">
+                  <div>
+                    <span>Brand</span>
+                    <span>{car.brand}</span>
+                  </div>
+                  <div>
+                    <span>Model</span>
+                    <span>{car.model}</span>
+                  </div>
+                  <div>
+                    <span>Year</span>
+                    <span>{car.year}</span>
+                  </div>
+                  <div>
+                    <span>Doors</span>
+                    <span>{car.doors}</span>
+                  </div>
+                  <div>
+                    <span>AC</span>
+                    <span>{car.ac}</span>
+                  </div>
+                  <div>
+                    <span>Transmission</span>
+                    <span>{car.transmission}</span>
+                  </div>
+                  <div>
+                    <span>Fuel</span>
+                    <span>{car.fuel}</span>
+                  </div>
                 </div>
               </div>
+              <button>Reserve now</button>
             </div>
-            <button>Reserve now</button>
           </div>
         </div>
       </div>

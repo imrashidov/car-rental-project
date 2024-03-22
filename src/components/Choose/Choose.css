@@ -19,6 +19,9 @@
   height: auto;
   margin-bottom: 2rem;
 }
+.choose-main img {
+  width: 100%;
+}
 
 .text-container {
   display: flex;
@@ -95,11 +98,12 @@
   width: fit-content;
   height: fit-content;
 }
-
-@media (max-width: 768px) {
-  .choose-main img {
-    width: 100%;
+@media (max-width: 1050px) {
+  .text-container {
+    gap: 5rem;
   }
+}
+@media (max-width: 768px) {
   .text-container {
     flex-direction: column;
     gap: 5rem;

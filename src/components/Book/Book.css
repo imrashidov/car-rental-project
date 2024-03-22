@@ -35,6 +35,7 @@
   flex-direction: column;
   justify-content: center;
   font-size: 1.4rem;
+  width: 100%;
 }
 .book-form-select label,
 .book-form-time label {
@@ -44,10 +45,11 @@
   gap: 0.5rem;
   margin-bottom: 1rem;
   font-weight: 500;
+  font-size: 1rem;
 }
 .book-form-select select,
 .book-form-time input {
-  width: 25rem;
+  width: 100%;
   padding: 0.7rem;
   color: #ababab;
   border: 1px solid #ccd7e6;
@@ -63,15 +65,15 @@ input[type="date" i] {
 }
 
 .book-form button {
+  width: 100%;
   font-weight: 600;
-  font-size: 1.4rem;
+  font-size: 1.2rem;
   color: #fff;
   background: var(--secondary-color);
   border: none;
-  width: 25rem;
   height: fit-content;
   align-self: self-end;
-  padding: 0.7rem;
+  padding: 0.5rem;
   box-shadow: 0 10px 15px rgba(255, 83, 48, 0.35);
   transition: all 0.3s;
   cursor: pointer;
@@ -80,24 +82,22 @@ input[type="date" i] {
   box-shadow: 0 20px 25px rgba(255, 83, 48, 0.35);
 }
 
+/* Media */
+@media (max-width: 1050px) {
+  .book-form form {
+    grid-template-columns: 1fr 1fr;
+  }
+}
 @media (max-width: 768px) {
   .book-content {
     padding: 2rem 1rem;
   }
   .book-form form {
     grid-template-columns: 1fr;
-    width: 100%;
   }
 
   .book-form-select,
   .book-form-time label {
     font-size: 1.1rem;
-  }
-  .book-form-select select,
-  input[type="date" i] {
-    width: 100%;
-  }
-  .book-form button {
-    width: 100%;
   }
 }

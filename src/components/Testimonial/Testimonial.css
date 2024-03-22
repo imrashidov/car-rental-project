@@ -34,7 +34,8 @@
 }
 .testimonials-boxes {
   display: flex;
-  gap: 10rem;
+  justify-content: space-between;
+  gap: 2rem;
 }
 .testimonials-boxes img {
   width: 5rem;
@@ -66,7 +67,14 @@
   align-items: center;
   gap: 1rem;
 }
-
+@media (max-width: 1050px) {
+  .testimonials-box2 {
+    display: none;
+  }
+  .testimonials-boxes {
+    justify-content: center;
+  }
+}
 @media (max-width: 768px) {
   .testimonials-box2 {
     display: none;

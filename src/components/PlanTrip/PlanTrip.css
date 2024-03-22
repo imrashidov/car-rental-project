@@ -26,9 +26,7 @@
 .plan-box div {
   padding: 2rem 3rem;
 }
-.plan-box img {
-  width: 45%;
-}
+
 .plan-box h5 {
   font-size: 1.6rem;
   margin-bottom: 1rem;
@@ -38,7 +36,11 @@
   font-size: 0.9rem;
   margin-bottom: 1rem;
 }
-
+@media (max-width: 1050px) {
+  .plan-box {
+    grid-template-columns: 1fr 1fr;
+  }
+}
 @media (max-width: 768px) {
   .plan-box {
     grid-template-columns: 1fr;

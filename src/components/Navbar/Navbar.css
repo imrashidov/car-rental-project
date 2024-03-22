@@ -118,7 +118,8 @@
   background-color: black;
   color: #fff;
 }
-@media (max-width: 768px) {
+
+@media (max-width: 1050px) {
   .navbar {
     padding: 2.7rem 1.7rem;
   }
@@ -130,7 +131,7 @@
     padding: 12px 20px;
   }
 }
-@media (min-width: 760px) {
+@media (min-width: 760px) and (min-width: 1050px) {
   .navbar-mobile,
   .navbar-menu,
   .navbar-slider {
