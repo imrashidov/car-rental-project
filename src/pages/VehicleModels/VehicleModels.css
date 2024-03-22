@@ -19,7 +19,6 @@
 .models-box {
   background-color: #fff;
   border-radius: 5px;
-  width: 23rem;
   box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.1);
 }
 .models-box__desc {
@@ -78,7 +77,11 @@
   font-weight: 500;
   display: flex;
 }
-
+@media (max-width: 1050px) {
+  .models {
+    grid-template-columns: 1fr 1fr;
+  }
+}
 @media (max-width: 768px) {
   .models {
     grid-template-columns: 1fr;

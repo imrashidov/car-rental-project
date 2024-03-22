@@ -8,6 +8,7 @@
 .about-main__img {
   padding: 2.5rem;
 }
+
 .about-main__text {
   width: 30rem;
 }
@@ -51,6 +52,14 @@
   align-items: center;
   padding-top: 0.5rem;
   height: 100%;
+}
+
+@media (max-width: 1050px) {
+  .about-main {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 }
 
 @media (max-width: 768px) {
