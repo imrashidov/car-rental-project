@@ -4,7 +4,7 @@
   <a href="https://car-rental-rashidov.vercel.app" target="_blank">Vercel</a>
 </h2>
 <div align="center">
-  <img alt="Screenshot" src="./src/assets/images/Screenshot.png" />
+  <img alt="Screenshot" src="./src/assets/Screenshot.png" />
 </div>
 
 <h3 align="center">
