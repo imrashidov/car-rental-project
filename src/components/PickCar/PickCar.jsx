@@ -1,6 +1,6 @@
 import { useState } from "react";
+import carModels from "../../data/CarModels";
 import "./PickCar.css";
-import carModels from "../../data/carModels.jsx";
 import { PuffLoader } from "react-spinners";
 
 const PickCar = () => {
