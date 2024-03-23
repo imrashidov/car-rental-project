@@ -91,13 +91,17 @@ input[type="date" i] {
 @media (max-width: 768px) {
   .book-content {
     padding: 2rem 1rem;
+    margin-top: 2rem;
   }
   .book-form form {
     grid-template-columns: 1fr;
   }
 
-  .book-form-select,
+  .book-form-select label,
   .book-form-time label {
     font-size: 1.1rem;
+  }
+  .book-form-time input {
+    width: 100%;
   }
 }
