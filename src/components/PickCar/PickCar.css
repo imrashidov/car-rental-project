@@ -58,9 +58,12 @@
 }
 .car-content__car-image {
   position: relative;
+  width: 100%;
 }
+
 .car-content__car-image img {
   mix-blend-mode: multiply;
+  width: 100%;
 }
 .car-content__car-details {
   width: fit-content;
