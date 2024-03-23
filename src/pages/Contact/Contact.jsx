@@ -1,4 +1,3 @@
-import "./Contact.css";
 import HeroPages from "../../components/HeroPages/HeroPages.jsx";
 import BookBanner from "../../components/BookBanner/BookBanner.jsx";
 import { IoIosCall } from "react-icons/io";

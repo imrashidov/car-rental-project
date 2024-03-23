@@ -1,6 +1,6 @@
 /* FAQ section */
 .faq-section {
-  background-image: url("../src/assets/images/faq/faq-background.png");
+  background-image: url("../../assets/images/faq/faq-background.png");
   background-repeat: no-repeat;
   background-position: 0 70%;
   display: flex;

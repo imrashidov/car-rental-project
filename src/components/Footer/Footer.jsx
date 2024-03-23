@@ -1,4 +1,3 @@
-import "./Footer.css";
 import { IoIosCall } from "react-icons/io";
 import { IoIosMail } from "react-icons/io";
 

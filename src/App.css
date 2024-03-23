@@ -19,6 +19,188 @@ body {
   background-color: #f8f8f8;
 }
 
+/* Footer */
+footer {
+  display: flex;
+  justify-content: center;
+  background-color: #f8f8f8;
+  padding: 5rem 0;
+}
+
+.footer-content {
+  color: #010103;
+  display: grid;
+  gap: 8rem;
+  grid-template-columns: 27fr 21fr 21fr 21fr;
+  justify-content: center;
+  text-align: left;
+  font-size: 1.1rem;
+  font-weight: 400;
+}
+.footer-content ul {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.footer-content span {
+  color: black;
+}
+.footer-content a {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-weight: 500;
+}
+
+.footer-content__1 li {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+.footer-content__1 li:first-child span::after {
+  content: " Rental";
+  font-weight: 400;
+}
+.footer-content ul li:first-of-type {
+  font-weight: 700;
+  font-size: 1.3rem;
+}
+.footer-content__2 a {
+  font-weight: 400;
+}
+.footer-content__4 input {
+  width: 100%;
+  text-align: left;
+  border: none;
+  padding: 1rem;
+  background-color: #ececec;
+}
+.footer-content__4 input:focus {
+  outline: none;
+}
+.footer-content__4 button {
+  background-color: var(--secondary-color);
+  width: 100%;
+  color: #fff;
+  border: none;
+  padding: 1rem 2rem;
+  border-radius: 5px;
+  box-shadow: 0 10px 15px 0 rgba(255, 83, 48, 0.35);
+  font-weight: 600;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+.footer-content__4 button:hover {
+  transition: all 0.3s;
+  box-shadow: 0 20px 25px 0 rgba(255, 83, 48, 0.35);
+}
+
+@media (max-width: 1050px) {
+  .footer-content {
+    grid-template-columns: 1fr 1fr;
+    gap: 3rem;
+  }
+}
+@media (max-width: 768px) {
+  footer {
+    padding: 3rem 0;
+  }
+  .footer-content {
+    grid-template-columns: 1fr;
+    gap: 3rem;
+    text-align: center;
+  }
+  .footer-content ul {
+    align-items: center;
+  }
+  .footer-content__4 li {
+    width: 100%;
+  }
+}
+
+/* Contact Page */
+.contact-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-image: url("./assets/images/contact/contact-bg.png");
+  background-position: 50%;
+  background-repeat: no-repeat;
+  padding: 5rem 2.5rem;
+  gap: 3rem;
+}
+.contact-container__text {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  width: 100%;
+  max-width: 30rem;
+}
+.contact-container__text h3 {
+  font-size: 2.6rem;
+  line-height: 1.2;
+}
+.contact-container__text p {
+  color: var(--description-color);
+  font-weight: 500;
+}
+.contact-container__text a {
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+  font-weight: 500;
+  font-size: 1.1rem;
+  width: fit-content;
+}
+.contact-container__form form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 0.7rem;
+}
+.contact-container__form label {
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+.contact-container__form input,
+textarea {
+  border: none;
+  outline: none;
+  padding: 1.2rem;
+  background-color: #f2f2f2;
+  font-size: 1.2rem;
+}
+.contact-container__form button {
+  background-color: var(--secondary-color);
+  color: #fff;
+  border: none;
+  padding: 1.2rem;
+  font-size: 1.2rem;
+  font-weight: 600;
+  cursor: pointer;
+  box-shadow: 0 10px 15px 0 rgba(255, 83, 48, 0.35);
+  transition: all 0.3s;
+  margin-top: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+.contact-container__form button svg {
+  fill: #fff;
+}
+
+.contact-container__form button:hover {
+  box-shadow: 0 20px 25px 0 rgba(255, 83, 48, 0.35);
+}
+
+@media (max-width: 768px) {
+  .contact-container {
+    grid-template-columns: 1fr;
+    padding: 3rem 1.5rem;
+  }
+}
+
 /* Others */
 span {
   color: var(--secondary-color);
