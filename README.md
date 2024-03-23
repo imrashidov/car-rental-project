@@ -1,6 +1,6 @@
 <h2 align="center">
   Car Rental <br/>
-  <a href="https://car-rental-rashidov.netlify.app/" target="_blank">Netlify</a>
+  <a href="https://car-rental-rashidov.netlify.app/" target="_blank">Netlify</a> <br>
   <a href="https://car-rental-rashidov.vercel.app" target="_blank">Vercel</a>
 </h2>
 <div align="center">
