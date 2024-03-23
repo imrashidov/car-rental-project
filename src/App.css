@@ -202,6 +202,9 @@ textarea {
   .contact-container h3 {
     font-size: 1.8rem;
   }
+  .contact-container p {
+    font-size: 0.8rem;
+  }
 }
 
 /* Others */
