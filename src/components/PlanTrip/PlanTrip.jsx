@@ -1,7 +1,7 @@
 import "./PlanTrip.css";
-import planCar from "../../assets/plan-car.png";
-import planOperator from "../../assets/plan-operator.png";
-import planDrive from "../../assets/plan-drive.png";
+import planCar from "../../assets/images/plan-trip/plan-car.png";
+import planOperator from "../../assets/images/plan-trip/plan-operator.png";
+import planDrive from "../../assets/images/plan-trip/plan-drive.png";
 
 const PlanTrip = () => {
   const planData = [
