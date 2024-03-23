@@ -1,8 +1,44 @@
-# React + Vite
+<h2 align="center">
+  Car Rental <br/>
+  <a href="https://car-rental-rashidov.netlify.app/" target="_blank">Netlify</a>
+  <a href="https://car-rental-rashidov.vercel.app" target="_blank">Vercel</a>
+</h2>
+<div align="center">
+  <img alt="Screenshot" src="./src/assets/images/Screenshot.png" />
+</div>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<h3 align="center">
+    🔹
+    <a href="https://github.com/imrashidov/car-rental-project/issues">Report Bug</a> &nbsp; &nbsp;
+</h3>
 
-Currently, two official plugins are available:
+## Built With
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- React.js
+- React Router
+
+## Features
+
+**🎨 Styled with CSS**
+
+**📱 Fully Responsive**
+
+## 🛠 Installation and Setup Instructions
+
+1. Installation: `npm install`
+
+2. In the project directory, you can run: `npm start`
+
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+The page will reload if you make edits.
+
+### Show your support
+
+Give a ⭐ if you like this website!
+
+
+
+
+
+
