@@ -197,7 +197,10 @@ textarea {
 @media (max-width: 768px) {
   .contact-container {
     grid-template-columns: 1fr;
-    padding: 3rem 1.5rem;
+    padding: 3rem 0rem;
+  }
+  .contact-container h3 {
+    font-size: 1.8rem;
   }
 }
 
